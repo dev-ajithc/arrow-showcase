@@ -1,0 +1,13 @@
+event_id,event_name,start_date,end_date,timezone,location,attendees
+1,Team Standup,2024-02-07 10:00:00,2024-02-07 10:15:00,America/New_York,Conference Room A,12
+2,Product Launch,2024-03-15 00:00:00,2024-03-15 23:59:59,UTC,Virtual,500
+3,Client Meeting,2024-02-08 14:00:00,2024-02-08 15:30:00,America/Los_Angeles,Office,5
+4,Technical Webinar,2024-02-20 14:00:00,2024-02-20 15:30:00,Europe/London,Online,150
+5,Sprint Planning,2024-02-12 09:00:00,2024-02-12 12:00:00,America/New_York,Conference Room B,8
+6,Quarterly Review,2024-03-31 13:00:00,2024-03-31 17:00:00,UTC,Headquarters,25
+7,Training Session,2024-02-15 10:00:00,2024-02-15 16:00:00,Europe/Paris,Training Room,20
+8,Board Meeting,2024-02-28 15:00:00,2024-02-28 17:00:00,America/New_York,Boardroom,10
+9,Hackathon,2024-03-22 09:00:00,2024-03-24 18:00:00,America/Los_Angeles,Tech Center,50
+10,Customer Workshop,2024-02-25 11:00:00,2024-02-25 15:00:00,Asia/Tokyo,Customer Site,30
+11,Code Review,2024-02-09 15:00:00,2024-02-09 16:00:00,America/New_York,Virtual,6
+12,All Hands Meeting,2024-02-14 12:00:00,2024-02-14 13:00:00,UTC,Virtual,200

@@ -1,0 +1,68 @@
+{
+  "schedules": [
+    {
+      "id": 1,
+      "name": "Daily Database Backup",
+      "type": "daily",
+      "time": "02:00",
+      "timezone": "UTC",
+      "enabled": true,
+      "last_run": "2024-02-07T02:00:00Z",
+      "next_run": "2024-02-08T02:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "Weekly Report Generation",
+      "type": "weekly",
+      "day": "monday",
+      "time": "09:00",
+      "timezone": "America/New_York",
+      "enabled": true,
+      "last_run": "2024-02-05T14:00:00Z",
+      "next_run": "2024-02-12T14:00:00Z"
+    },
+    {
+      "id": 3,
+      "name": "Hourly Cache Cleanup",
+      "type": "interval",
+      "interval_minutes": 60,
+      "timezone": "UTC",
+      "enabled": true,
+      "last_run": "2024-02-07T13:00:00Z",
+      "next_run": "2024-02-07T14:00:00Z"
+    },
+    {
+      "id": 4,
+      "name": "Monthly Analytics Report",
+      "type": "monthly",
+      "day_of_month": 1,
+      "time": "08:00",
+      "timezone": "UTC",
+      "enabled": true,
+      "last_run": "2024-02-01T08:00:00Z",
+      "next_run": "2024-03-01T08:00:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Log Rotation",
+      "type": "daily",
+      "time": "00:00",
+      "timezone": "UTC",
+      "enabled": true,
+      "retention_days": 7,
+      "last_run": "2024-02-07T00:00:00Z",
+      "next_run": "2024-02-08T00:00:00Z"
+    },
+    {
+      "id": 6,
+      "name": "Security Scan",
+      "type": "weekly",
+      "day": "sunday",
+      "time": "03:00",
+      "timezone": "UTC",
+      "enabled": false,
+      "last_run": "2024-02-04T03:00:00Z",
+      "next_run": "2024-02-11T03:00:00Z"
+    }
+  ]
+}
